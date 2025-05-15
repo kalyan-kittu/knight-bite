@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: lavender;
+    background-image: url(./app-link-background.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.header{
+    border: none;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items:center;
+    position: fixed;
+    justify-content: center;
+    z-index: 2;
+}
+.logo{
+    height: 90px;
+    width: 200px ;
+    margin-left: 35px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.righthead{
+    margin:0 10px;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    text-align: right;
+    display: flex;
+    padding-left: 1200px;
+    padding-right: 150px;
+}
+.heading1{
+    color: white;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.order{
+    border: 1px solid transparent;
+    background-color: rgb(245, 5, 113);
+    height: 4vh;
+    width:10%;
+    margin:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    text-decoration: none;
+    border-radius: 2vh;
+    font-size: larger;
+    color:white;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.app{
+    
+    justify-content:center;
+    display:flex;
+}
+.app_link{
+    padding:3vh 2%;
+}
+.app_link:hover{
+    scale:0.95;
+    transition: 0.2s;
+}
+.heading2{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 8vh;
+}
+.features{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 8vh;
+    padding-bottom: 25vh;
+}
+.pic{
+    height: 200px;
+}
+.text{
+    font-size: larger;
+}
+.bg3{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(./banner-1.webp);
+}
+.heading3{
+    padding: 65vh 0;
+    font-size: 80px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.heading4{
+    font-size: 80px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 15vh;
+    padding-bottom: 30vh;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bg4{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(./banner-2.webp);
+}
+.more{
+    padding: 10vh 0;
+}
+.seemore{
+    border: 1px solid white;
+    background-color: transparent;
+    height: 8vh;
+    width:20%;
+    margin:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    text-decoration: none;
+    border-radius: 2vh;
+    font-size: 30px;
+    color:white;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.heading5{
+    font-size: 50px;
+    padding-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 10vh;
+}
+.subheading{
+    color:black;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 5%;
+}
+.cont{
+    display:flex;
+    padding: 2vh 5%;
+    font-size: 20px;
+}
+.contacts{
+    display: flex;
+}
+.contactus{
+    padding-right: 20px;
+    width: 50%;
+}
+.quicklinks{
+    padding-right: 40px;
+    width: 50%;
+}
+.links{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(253, 129, 150);
+    padding-right: 30px;
+}
+.subheading2{
+    color:black;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.para{
+    font-size: 25px;
+}
+.p{
+    padding-right: 5%;
+}
+input{
+    height:5vh;
+    width:70%;
+    border-radius: 3vh;
+    margin-top: 10vh;
+    padding-left: 5vh;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.follow{
+    display: flex;
+}
+.address{
+    font-size: 20px;
+    display:flex;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.headoffice{
+    padding-right: 40px;
+    width: 35%;
+}
+.locations{
+    width:40%
+}
+.social{
+    width: 70%;
+}
+.add{
+    font-size: 20px;
+    font-size: 20px;
+}
+.media{
+    padding-right:5%;
+}
+.logopic{
+    justify-content: center;
+    display: flex;
+    padding: 3vh ;
+}
+.fig{
+    margin:0 1%;
+}
+h4{
+    text-align: center;
+    background-image: linear-gradient(to right ,rgb(220, 68, 240),rgb(251, 13, 132));
+    padding: 2vh 0;
+    margin-top: 2vh;
+    color: white;
+}
